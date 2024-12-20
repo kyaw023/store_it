@@ -11,7 +11,6 @@ export const dynamic = "force-dynamic";
 const layout = async ({ children }: { children: React.ReactNode }) => {
   const currentUser = await getCurrentUser();
 
-  console.log(currentUser);
 
   if (!currentUser) return redirect("/sign-in");
 
