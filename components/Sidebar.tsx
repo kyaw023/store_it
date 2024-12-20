@@ -13,7 +13,14 @@ interface Props {
   email: string;
 }
 
-const Sidebar = ({ fullName, avatar, email }: Props) => {
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * A sidebar component that displays a navigation menu, user details, and an image at the bottom.
+ *
+ * @param {Props} props The component props.
+ * @returns {React.ReactElement} The sidebar component.
+ */
+/******  8a041a25-e538-4235-beea-ee8e790fdd65  *******/const Sidebar = ({ fullName, email }: Props) => {
   const pathname = usePathname();
   return (
     <aside className="sidebar">

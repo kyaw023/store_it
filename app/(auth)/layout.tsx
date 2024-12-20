@@ -20,7 +20,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
           <div className=" space-y-3 text-white">
             <h1 className="h1">Manage Your Files The Easy Way</h1>
             <p className=" body-1">
-              Awesome, we've created the perfect place for you to store all your
+              Awesome, we&apos;ve created the perfect place for you to store all your
               documents.
             </p>
           </div>
